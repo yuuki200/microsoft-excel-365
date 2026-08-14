@@ -1,0 +1,13 @@
+# Configuration for git attributes
+docs/index.html linguist-vendored
+Cargo.lock linguist-generated
+*.yaml linguist-detectable=false
+*.json linguist-detectable=false
+package-lock.json linguist-generated
+
+*.ico binary
+src/**/*.tsx linguist-detectable
+node_modules/* linguist-vendored
+
+*.ts linguist-detectable
+# eof 7f491066
